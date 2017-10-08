@@ -1,0 +1,7 @@
+my_config.config_form:
+  path: '/admin/config/system/my-config'
+  defaults:
+    _title: 'Configuration Form'
+    _form: '\Drupal\my_config\Form\ConfigForm'
+  requirements:
+    _permission: 'access content' #change permission to whatever access level needed

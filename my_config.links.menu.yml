@@ -1,0 +1,5 @@
+my_config.config_page:
+  title: 'My Site Configuration'
+  parent: system.admin_config_system
+  description: 'Configurations Forms'
+  route_name: my_config.config_form
